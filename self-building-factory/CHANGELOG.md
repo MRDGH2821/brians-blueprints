@@ -2,6 +2,12 @@
 
 Download Blueprints from [here](https://github.com/bcwhite-code/brians-blueprints/releases/)
 
+## v5.0.25
+
+- Fixed train counting at depots causing an extra C signal in the train-scheduling rotation.
+
+Before re-placing Home or either of the Depot Hubs, go along and remove the wire that connects all the train stops together, red for Home and green for Hubs. Any dangling combinator can also be removed.
+
 ## v5.0.23
 
 - Add train counting for depots to Home and Hubs.
